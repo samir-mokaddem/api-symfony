@@ -1,0 +1,9 @@
+App\Entity\user:
+    user_{1..100}:
+        firstname: <firstName()>
+        lastname: <lastName(4)>
+        email: <email()>
+        password: <password()>
+        groupes: '@groupes_*'
+        createdAt: <dateTime()>
+        updatedAt: <dateTime()>

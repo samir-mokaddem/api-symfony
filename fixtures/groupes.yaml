@@ -1,0 +1,6 @@
+# api/fixtures/groupes.yaml
+App\Entity\Groupes:
+    groupes_{1..10}:
+        name: <name()>
+        createdAt: <dateTime()>
+        updatedAt: <dateTime()>
